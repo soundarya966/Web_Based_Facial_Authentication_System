@@ -1,13 +1,13 @@
-# 🧑‍💻 Web-Based Facial Authentication System (Dockerized)
+# Web-Based Facial Authentication System (Dockerized)
 
-## 📌 Overview
+## Overview
 This project implements a **web-based facial authentication system** using a webcam and facial recognition techniques. The system captures live images from a user’s webcam, extracts facial features using **dlib-based embeddings**, and verifies identity against enrolled faces. To enhance security, **rate limiting** is applied to prevent brute-force attempts.
 
 The application is fully **containerized using Docker (Podman compatible)** to ensure dependency isolation and system stability, especially on security-focused operating systems like **Kali Linux**.
 
 ---
 
-## 🔐 Key Features
+## Key Features
 - Webcam-based facial login
 - Face recognition using **dlib + face_recognition**
 - Real-time image capture via browser
@@ -17,7 +17,7 @@ The application is fully **containerized using Docker (Podman compatible)** to e
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 Browser (Webcam)  
 ↓  
@@ -33,7 +33,7 @@ Authentication Result
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |---------|-----------|
@@ -47,9 +47,4 @@ Authentication Result
 
 ---
 
-## 🚀 How to Run the Project
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/<your-username>/facial-authentication-docker.git
-cd facial-authentication-docker
